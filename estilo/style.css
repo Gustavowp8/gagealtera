@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../arquivos/imagens/img19.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu{
+  background: #ffffff10;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid #ffffffb1;
+    max-width: 350px;
+    /*height: 600px;*/
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 10px;
+    border-radius: 15px;
+    color: #ffffff;
+}
+
+.menu2{
+    overflow: auto;
+}
+
+.btn-opc{
+    /*background: forestgreen;*/
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+   /* position: fixed;
+    background: red;
+    z-index: 10;*/
+}
+
+.circulo {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: red;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.circulo:hover{
+  -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.circulo2 {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: yellow;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.circulo2:hover{
+  -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.circulo3 {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: green;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.circulo3:hover{
+  -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.logo{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ffffff49;
+}
+
+.logo img{
+    width: 100px;
+    height: 75px;
+}
+
+.opcoes{
+    align-items: center;
+    border-bottom: 1px solid #ffffff49;
+}
+
+#tMenu{
+    font-size: 10pt;
+}
+
+.opcoes img{
+    width: 15px;
+    margin-right: 10px;
+}
+
+.opcoes ul{
+    list-style: none;
+    padding: 0;
+}
+
+.opcoes li{
+    align-items: center;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.opcoes li:hover{
+  background: rgba(0, 0, 0, 0.203);
+}
+
+.opcoes p{
+    display: flex;
+    /*background: red;*/
+    align-items: center;
+    padding: 2px;
+}
+
+.galeria{
+    margin-top: 5px;
+    border-bottom: 1px solid #ffffff49;
+    padding-bottom: 5px;
+}
+
+.swiper {
+    width: 140px;
+    height: 220px;
+  }
+
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .swiper-slide:nth-child(1n) {
+    background-image: url(../arquivos/imagens/foto01.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .swiper-slide:nth-child(2n) {
+    background-image: url(../arquivos/imagens/foto02.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .swiper-slide:nth-child(3n) {
+    background-image: url(../arquivos/imagens/foto03.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .swiper-slide:nth-child(4n) {
+    background-image: url(../arquivos/imagens/foto04.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .swiper-slide:nth-child(5n) {
+    background-image: url(../arquivos/imagens/foto05.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .swiper-slide:nth-child(6n) {
+    background-image: url(../arquivos/imagens/foto06.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .swiper-slide:nth-child(7n) {
+    background-image: url(../arquivos/imagens/foto07.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .swiper-slide:nth-child(8n) {
+    background-image: url(../arquivos/imagens/foto08.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .swiper-slide:nth-child(9n) {
+    background-image: url(../arquivos/imagens/foto09.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .swiper-slide:nth-child(10n) {
+    background-image: url(../arquivos/imagens/foto10.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .usuario{
+    /*background: blue;*/
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #dropdownMenuLink{
+    background: rgba(255, 0, 0, 0);
+    border: none;
+  }
+
+  .canto{
+    background: black;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+  }
+  .canto img{
+    width: 60px;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  .canto img:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
