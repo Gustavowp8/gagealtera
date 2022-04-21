@@ -35,7 +35,7 @@
                     <ul>
                         <li><p><img src="arquivos/icones/home-free-icon-font.png"> Home </p></li>
                         <li><p><img src="arquivos/icones/search-free-icon-font.png"> Buscar </p></li>
-                        <li><p><img src="arquivos/icones/comment-free-icon-font.png"> Mensagem </p></li>
+                        <li onclick="chamaSms()"><p><img src="arquivos/icones/comment-free-icon-font.png"> Mensagem </p></li>
                         <li><p><img src="arquivos/icones/bell-free-icon-font.png"> Notificação </p></li>
                         <li><p><img src="arquivos/icones/settings-free-icon-font.png"> Configuração </p></li>
                     </ul>
@@ -79,6 +79,33 @@
             </div>
         </div>
     </div> <br> <br> <br>
+
+    <div class="sms" id="sms">
+        <div class="sms2">
+            <div class="sms3">
+                <img src="arquivos/icones/comment-free-icon-font.png">
+                <h4>Mensagens</h4>
+                <form>
+
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Escreva sua mensagem</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label"></label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Digite seu nome">
+                      </div>
+
+                </form>
+
+                <div class="grupoBtn">
+                    <button type="button" onclick="enviarSms()" class="btn btn-primary btn-sm" id="btnEnviar">ENVIAR</button>
+                <button type="button" onclick="fechaSms()" class="btn btn-secondary btn-sm" id="btncancela">CANCELAR</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="canto">
         <img onclick="chamaMenu()" src="arquivos/icones/logoGage.png">

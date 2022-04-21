@@ -234,3 +234,47 @@ body{
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
   }
+
+  .sms{
+    display: none;
+    background: rgba(0, 0, 0, 0.841);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+  }
+  .sms2{
+    max-width: 400px;
+    background: #23374d;
+    padding: 10px;
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+    border-radius: 15px;
+    color: #ffffff;
+  }
+  .sms3 img{
+    width: 40px;
+  }
+  .grupoBtn{
+    margin: 15px;
+  }
+
+  #btncancela{
+    background: #D40D12;
+    border: 1px solid #D40D12;
+  }
+  #btnEnviar{
+    background: #2957A4;
+    border: 1px solid #2957A4;
+  }
+
+  @media(max-width: 600px){
+    .sms2{
+      width: auto;
+      margin: 15px;
+      margin-top: 30%;
+    }
+  }
